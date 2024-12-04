@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(255,209,223);
 }
 
 
@@ -13,17 +13,22 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
   // The ground
-  rect(0, 300, 400, 100);  
+  fill(216,239,248)
+  rect(0, 300, 400, 100); 
+  
 
   // The sun
+  fill(255,255,197)
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill(255,255,255)
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
-  
-
+  line(246,177,309,231);
+line(156,177,107,231);
+ triangle(30, 75, 58, 20, 86, 75)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
